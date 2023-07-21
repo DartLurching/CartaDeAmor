@@ -1,0 +1,43 @@
+body {
+    background-color: #ffe6e6; /* Fondo de color rosa pastel */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe6e6; /* Fondo de color rosa pastel */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #ff4d4d; /* Color de título */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #ffe6e6; /* Color de fondo del footer */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
