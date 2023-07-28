@@ -6,11 +6,12 @@
         <title>Carta de Despedida</title>
         <link rel="stylesheet" href="./css/index.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/Snowfall.js"></script>
     </head>
     <body>
         <div class="main-content">
             <div class="container">
-                <h1>❣️ Magaly ❣️</h1>
+                <h1>❣️Magaly❣️</h1>
                 <h2>Hola mi amor</h2>
                 <h4>Esto es un regalo y una despedida que quise hacer y son muchas cosas las que quiero decirte.</h4>
                 <h4>Espero de todo corazón te des el tiempo de leer todo, que puedas recordarme de la manera mas bonita y no como un intensito desesperado, o al menos no de una forma mala.</h4>
@@ -18,23 +19,24 @@
                 <h4>Atesoro en mi corazón los recuerdos felices que compartimos y espero de todo corazón algún dia nuestras vidas se vuelvan a unir, que el tiempo nos de la oportunidad de pasar tiempo juntos una vez mas.</h4>
                 <h4>Te amo mucho, y te deseo lo mejor, Espero que siempre tengas en tu corazón los momentos que compartimos y que siempre me recuerdes con cariño. Que cumplas tus metas y logres ser la mejor neuróloga del mundo. La mejor skye de todo Oaxaca y de todo el mundo.</h4>
                 <h4 class="instrucciones">Abajo tienes una playlist que te hice, junto con la explicacion de cada cancion y su motivo de estar ahi. Una carta mas detallada de despedida. Y momentos que recuerdo con mucha felicidad y afortunadamente pudieron quedar grabados, o en una foto.</h4>
-                <!-- Botón 1 -->
-                <button onclick="window.location.href = './routes/carta.html'">Carta</button>
-
-                <!-- Botón 2 -->
-                <button onclick="window.location.href = './routes/playlist.html'">Playlist</button>
-
-                <!-- Botón 3 -->
-                <button onclick="window.location.href = './routes/recuerdos.html'">Recuerdos</button>
-
-                <!-- Botón 4 sin redirección -->
-                <button>Botón 4</button>
+                <div class="buttonsContainer">
+                    <button class="button" onclick="window.location.href = './routes/carta.html'">Carta</button>
+                    <button class="button" onclick="window.location.href = './routes/playlist.html'">Playlist</button>
+                    <button class="button" onclick="window.location.href = './routes/recuerdos.html'">Recuerdos</button>
+                    <button class="button" id="SorpresaButton">Sorpresa</button>
+                </div>
             </div>
         </div>
         <footer>
             <p>❣️ Luis Alférez ❣️</p>
         </footer>
-        <script src="/index.js"></script>
+        <script>
+            // Agrega un evento de clic al botón "Sorpresa"
+            document.getElementById('SorpresaButton').addEventListener('click', function() {
+                // Llama a la función "heart" desde Snowfall.js
+                startAnimation();
+            });
+        </script>
     </body>
 </html>
 

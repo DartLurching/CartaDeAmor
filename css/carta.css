@@ -21,6 +21,7 @@ body {
 
 .container {
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
     background-color: #ffffff;
@@ -43,9 +44,6 @@ footer {
     text-align: center;
     font-size: 18px;
 }
-
-/* Bottons made by kosedagyazilim */
-/* https://uiverse.io/profile/kosedagyazilim */
 
 .button {
     display: inline-block;
@@ -77,4 +75,4 @@ footer {
     display: flex; /* Muestra los botones en línea horizontalmente */
     justify-content: center; /* Centra los botones horizontalmente */
     flex-wrap: wrap; /* Permite que los botones se envuelvan en una nueva línea cuando no caben en el ancho del contenedor */
-}
+  }
