@@ -1,28 +1,22 @@
 body {
-    background-color: #ffe6e6; /* Fondo de color rosa pastel */
+    background-color: #ffe6e6;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    /* padding: 10px; */
     flex-direction: column;
-    min-height: 100vh;
+    padding: 3%;
 }
 
-/* Estilos para el contenido principal */
 .main-content {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffe6e6; /* Fondo de color rosa pastel */
+    background-color: #ffe6e6;
 }
 
 .container {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
     background-color: #ffffff;
     padding: 60px;
     border-radius: 10px;
@@ -34,11 +28,19 @@ body {
 
     h1 {
     text-align: center;
-    color: #ff4d4d; /* Color de título */
+    color: #ff4d4d;
 }
 
-/* Estilos para el footer */
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: justify;
+}
+
 footer {
+    margin: 0;
     background-color: #ffe6e6;
     text-align: center;
     font-size: 18px;
