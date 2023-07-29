@@ -257,6 +257,11 @@ function heart4() {
 };
 
 function startAnimation() {
+    //Mandamos al inicio de la pagina
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
     heart();
     heart2();
     heart3();
