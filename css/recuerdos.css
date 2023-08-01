@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: #ffe6e6;
 }
 
@@ -27,7 +26,81 @@ body {
     position: relative;
 }
 
-h1,h2,h4 {
+h1 {
+    text-align: center;
+    color: #ff4d4d;
+}
+
+h2 {
     text-align: center;
 }
 
+/* Bottons made by kosedagyazilim */
+/* https://uiverse.io/profile/kosedagyazilim */
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #fcaaf8, #fa62f2);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px #fa62f2;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 0px #fa62f2;
+}
+
+.button:active {
+    transform: translateY(0px);
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right, #fcaaf8, #a545ff);
+}
+
+.buttonsContainer {
+    display: flex; /* Muestra los botones en línea horizontalmente */
+    justify-content: center; /* Centra los botones horizontalmente */
+    flex-wrap: wrap; /* Permite que los botones se envuelvan en una nueva línea cuando no caben en el ancho del contenedor */
+}
+
+.image-description {
+    display: none;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #fcaaf8, #fa62f2);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px #fa62f2;
+    transition: all 0.2s ease-in-out;
+    display: none;
+}
+
+@media screen and (max-width: 925px) {
+    .working {
+        display: none;
+    }
+
+    .image-description {
+        display: block;
+    }
+
+    .view-button {
+        display: block;
+        margin: 10px auto;
+    }
+}
